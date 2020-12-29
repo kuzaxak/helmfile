@@ -2,6 +2,8 @@ module github.com/roboll/helmfile
 
 go 1.14
 
+replace github.com/variantdev/vals => github.com/kuzaxak/vals v0.0.0-20201229172625-23c5f2023465
+
 require (
 	github.com/Azure/azure-sdk-for-go v35.0.0+incompatible // indirect
 	github.com/Masterminds/semver/v3 v3.1.0
